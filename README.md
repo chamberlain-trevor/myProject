@@ -1,2 +1,2 @@
 # myProject
-### just making a change.
+### Project repo for Botany 563 phylogenetics course.
