@@ -13,7 +13,7 @@
 **From databases**
 - Two species' mtDNA were downloaded from databases:\ *Danio erythromicron* (GenBank: AP011419.1) and\ *Microdevario kubotai* (RefSeq: NC_037360.1).\
 - MitoAnnotator was used to quickly annotate the genomes,\ and a custom script was used to translate each protein-\ coding gene.\
-#### From NCBI SRA projects**
+#### From NCBI SRA projects
 - Reads from whole-genome sequencing using Illumina NGS\ were downloaded from NCBI: *Danio tinwini* (SRA:\ ERX3311503, ERX3311504, ERX3311505, ERX3311506) and *D*.\ *choprae* (SRA: ERX3311487, ERX3311488, ERX3311489,\ ERX3311490).\
 - Reads were quality-checked with FastQC, and trimming\ for quality and adapters was performed using fastp.\
 - Reads files were concatenated, and iterative assembly\ for mitochondrial DNA was performed with MITObim using a\ zebrafish reference as bait.\
